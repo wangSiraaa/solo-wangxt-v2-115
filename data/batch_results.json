@@ -1,0 +1,4027 @@
+{
+  "disclaimer": "合成教学场景，示例评价口径，非任何规划/日照标准合规结论；树木等遮挡未建模；逐时样本与连续时长为两种不同口径。",
+  "fine_step_seconds": 300,
+  "results": [
+    {
+      "scene_code": "A",
+      "point_code": "W1",
+      "date": "2025-12-22",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 0.0,
+        "window_normal_azimuth_deg": 180.0,
+        "point_model_xyz": [
+          -6.0,
+          -5.0,
+          1.5
+        ],
+        "point_enu": [
+          -6.0,
+          -5.0,
+          1.5
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 10,
+          "samples_sunlit": 3,
+          "samples_occluded": 7,
+          "samples_facade_away": 0,
+          "sunlit_sample_ratio": 0.3,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-12-22T08:00+08:00",
+            "elevation": 9.7108,
+            "azimuth": 125.6478,
+            "sun_vector_enu": [
+              0.800971,
+              -0.574451,
+              0.168676
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T09:00+08:00",
+            "elevation": 19.3601,
+            "azimuth": 135.7849,
+            "sun_vector_enu": [
+              0.657922,
+              -0.676198,
+              0.331504
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（正午前后遮挡）",
+              "distance_m": 18.4557,
+              "hit_point_enu": [
+                6.1622,
+                -17.5,
+                7.6281
+              ],
+              "face_index": 9
+            }
+          },
+          {
+            "time_local": "2025-12-22T10:00+08:00",
+            "elevation": 27.2195,
+            "azimuth": 148.089,
+            "sun_vector_enu": [
+              0.470064,
+              -0.754867,
+              0.457401
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（正午前后遮挡）",
+              "distance_m": 16.5292,
+              "hit_point_enu": [
+                1.7839,
+                -17.5,
+                9.0742
+              ],
+              "face_index": 9
+            }
+          },
+          {
+            "time_local": "2025-12-22T11:00+08:00",
+            "elevation": 32.5334,
+            "azimuth": 162.737,
+            "sun_vector_enu": [
+              0.250191,
+              -0.805099,
+              0.537792
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（正午前后遮挡）",
+              "distance_m": 15.496,
+              "hit_point_enu": [
+                -2.1155,
+                -17.5,
+                9.8498
+              ],
+              "face_index": 7
+            }
+          },
+          {
+            "time_local": "2025-12-22T12:00+08:00",
+            "elevation": 34.5552,
+            "azimuth": 179.0763,
+            "sun_vector_enu": [
+              0.013277,
+              -0.823473,
+              0.5672
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（正午前后遮挡）",
+              "distance_m": 15.1496,
+              "hit_point_enu": [
+                -5.7985,
+                -17.5,
+                10.1099
+              ],
+              "face_index": 7
+            }
+          },
+          {
+            "time_local": "2025-12-22T13:00+08:00",
+            "elevation": 32.9306,
+            "azimuth": 195.517,
+            "sun_vector_enu": [
+              -0.224542,
+              -0.808737,
+              0.543623
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T14:00+08:00",
+            "elevation": 27.9478,
+            "azimuth": 210.4038,
+            "sun_vector_enu": [
+              -0.447068,
+              -0.761894,
+              0.468667
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T15:00+08:00",
+            "elevation": 20.3306,
+            "azimuth": 222.9694,
+            "sun_vector_enu": [
+              -0.639146,
+              -0.686134,
+              0.347437
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（跨西立面，下午遮挡，上午边缘擦过）",
+              "distance_m": 12.4867,
+              "hit_point_enu": [
+                -14.0,
+                -13.5881,
+                5.8488
+              ],
+              "face_index": 10
+            }
+          },
+          {
+            "time_local": "2025-12-22T16:00+08:00",
+            "elevation": 10.8472,
+            "azimuth": 233.3239,
+            "sun_vector_enu": [
+              -0.787695,
+              -0.586618,
+              0.18819
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（跨西立面，下午遮挡，上午边缘擦过）",
+              "distance_m": 10.1262,
+              "hit_point_enu": [
+                -14.0,
+                -10.9578,
+                3.4113
+              ],
+              "face_index": 10
+            }
+          },
+          {
+            "time_local": "2025-12-22T17:00+08:00",
+            "elevation": 0.1015,
+            "azimuth": 241.9576,
+            "sun_vector_enu": [
+              -0.882599,
+              -0.470123,
+              0.001772
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（跨西立面，下午遮挡，上午边缘擦过）",
+              "distance_m": 9.0341,
+              "hit_point_enu": [
+                -14.0,
+                -9.2613,
+                1.5161
+              ],
+              "face_index": 10
+            }
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 230.0,
+        "sunlit_duration_h": 3.833,
+        "occluded_segments": [
+          {
+            "start": "2025-12-22T08:50+08:00",
+            "end": "2025-12-22T12:20+08:00",
+            "duration_min": 210.0,
+            "occluder_ids": [
+              "N1"
+            ]
+          },
+          {
+            "start": "2025-12-22T14:30+08:00",
+            "end": "2025-12-22T17:05+08:00",
+            "duration_min": 155.0,
+            "occluder_ids": [
+              "N2"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-12-22T07:10+08:00",
+            "end": "2025-12-22T08:50+08:00",
+            "duration_min": 100.0
+          },
+          {
+            "start": "2025-12-22T12:20+08:00",
+            "end": "2025-12-22T14:30+08:00",
+            "duration_min": 130.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "A",
+      "point_code": "W2",
+      "date": "2025-12-22",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 0.0,
+        "window_normal_azimuth_deg": 180.0,
+        "point_model_xyz": [
+          0.0,
+          -5.0,
+          10.0
+        ],
+        "point_enu": [
+          0.0,
+          -5.0,
+          10.0
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 10,
+          "samples_sunlit": 8,
+          "samples_occluded": 2,
+          "samples_facade_away": 0,
+          "sunlit_sample_ratio": 0.8,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-12-22T08:00+08:00",
+            "elevation": 9.7108,
+            "azimuth": 125.6478,
+            "sun_vector_enu": [
+              0.800971,
+              -0.574451,
+              0.168676
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T09:00+08:00",
+            "elevation": 19.3601,
+            "azimuth": 135.7849,
+            "sun_vector_enu": [
+              0.657922,
+              -0.676198,
+              0.331504
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T10:00+08:00",
+            "elevation": 27.2195,
+            "azimuth": 148.089,
+            "sun_vector_enu": [
+              0.470064,
+              -0.754867,
+              0.457401
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T11:00+08:00",
+            "elevation": 32.5334,
+            "azimuth": 162.737,
+            "sun_vector_enu": [
+              0.250191,
+              -0.805099,
+              0.537792
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T12:00+08:00",
+            "elevation": 34.5552,
+            "azimuth": 179.0763,
+            "sun_vector_enu": [
+              0.013277,
+              -0.823473,
+              0.5672
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T13:00+08:00",
+            "elevation": 32.9306,
+            "azimuth": 195.517,
+            "sun_vector_enu": [
+              -0.224542,
+              -0.808737,
+              0.543623
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T14:00+08:00",
+            "elevation": 27.9478,
+            "azimuth": 210.4038,
+            "sun_vector_enu": [
+              -0.447068,
+              -0.761894,
+              0.468667
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T15:00+08:00",
+            "elevation": 20.3306,
+            "azimuth": 222.9694,
+            "sun_vector_enu": [
+              -0.639146,
+              -0.686134,
+              0.347437
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T16:00+08:00",
+            "elevation": 10.8472,
+            "azimuth": 233.3239,
+            "sun_vector_enu": [
+              -0.787695,
+              -0.586618,
+              0.18819
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（跨西立面，下午遮挡，上午边缘擦过）",
+              "distance_m": 17.7434,
+              "hit_point_enu": [
+                -14.0,
+                -15.4262,
+                13.3448
+              ],
+              "face_index": 10
+            }
+          },
+          {
+            "time_local": "2025-12-22T17:00+08:00",
+            "elevation": 0.1015,
+            "azimuth": 241.9576,
+            "sun_vector_enu": [
+              -0.882599,
+              -0.470123,
+              0.001772
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（跨西立面，下午遮挡，上午边缘擦过）",
+              "distance_m": 15.8322,
+              "hit_point_enu": [
+                -14.0,
+                -12.4572,
+                10.0281
+              ],
+              "face_index": 10
+            }
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 525.0,
+        "sunlit_duration_h": 8.75,
+        "occluded_segments": [
+          {
+            "start": "2025-12-22T15:55+08:00",
+            "end": "2025-12-22T17:05+08:00",
+            "duration_min": 70.0,
+            "occluder_ids": [
+              "N2"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-12-22T07:10+08:00",
+            "end": "2025-12-22T15:55+08:00",
+            "duration_min": 525.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "A",
+      "point_code": "W3",
+      "date": "2025-12-22",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 0.0,
+        "window_normal_azimuth_deg": 180.0,
+        "point_model_xyz": [
+          6.0,
+          -5.0,
+          1.5
+        ],
+        "point_enu": [
+          6.0,
+          -5.0,
+          1.5
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 10,
+          "samples_sunlit": 5,
+          "samples_occluded": 5,
+          "samples_facade_away": 0,
+          "sunlit_sample_ratio": 0.5,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-12-22T08:00+08:00",
+            "elevation": 9.7108,
+            "azimuth": 125.6478,
+            "sun_vector_enu": [
+              0.800971,
+              -0.574451,
+              0.168676
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T09:00+08:00",
+            "elevation": 19.3601,
+            "azimuth": 135.7849,
+            "sun_vector_enu": [
+              0.657922,
+              -0.676198,
+              0.331504
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T10:00+08:00",
+            "elevation": 27.2195,
+            "azimuth": 148.089,
+            "sun_vector_enu": [
+              0.470064,
+              -0.754867,
+              0.457401
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T11:00+08:00",
+            "elevation": 32.5334,
+            "azimuth": 162.737,
+            "sun_vector_enu": [
+              0.250191,
+              -0.805099,
+              0.537792
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T12:00+08:00",
+            "elevation": 34.5552,
+            "azimuth": 179.0763,
+            "sun_vector_enu": [
+              0.013277,
+              -0.823473,
+              0.5672
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（正午前后遮挡）",
+              "distance_m": 15.1496,
+              "hit_point_enu": [
+                6.2015,
+                -17.5,
+                10.1099
+              ],
+              "face_index": 9
+            }
+          },
+          {
+            "time_local": "2025-12-22T13:00+08:00",
+            "elevation": 32.9306,
+            "azimuth": 195.517,
+            "sun_vector_enu": [
+              -0.224542,
+              -0.808737,
+              0.543623
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（正午前后遮挡）",
+              "distance_m": 15.4262,
+              "hit_point_enu": [
+                2.5294,
+                -17.5,
+                9.9023
+              ],
+              "face_index": 9
+            }
+          },
+          {
+            "time_local": "2025-12-22T14:00+08:00",
+            "elevation": 27.9478,
+            "azimuth": 210.4038,
+            "sun_vector_enu": [
+              -0.447068,
+              -0.761894,
+              0.468667
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（正午前后遮挡）",
+              "distance_m": 16.3765,
+              "hit_point_enu": [
+                -1.3348,
+                -17.5,
+                9.1892
+              ],
+              "face_index": 7
+            }
+          },
+          {
+            "time_local": "2025-12-22T15:00+08:00",
+            "elevation": 20.3306,
+            "azimuth": 222.9694,
+            "sun_vector_enu": [
+              -0.639146,
+              -0.686134,
+              0.347437
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（正午前后遮挡）",
+              "distance_m": 18.188,
+              "hit_point_enu": [
+                -5.644,
+                -17.5,
+                7.8296
+              ],
+              "face_index": 7
+            }
+          },
+          {
+            "time_local": "2025-12-22T16:00+08:00",
+            "elevation": 10.8472,
+            "azimuth": 233.3239,
+            "sun_vector_enu": [
+              -0.787695,
+              -0.586618,
+              0.18819
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T17:00+08:00",
+            "elevation": 0.1015,
+            "azimuth": 241.9576,
+            "sun_vector_enu": [
+              -0.882599,
+              -0.470123,
+              0.001772
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（跨西立面，下午遮挡，上午边缘擦过）",
+              "distance_m": 22.6303,
+              "hit_point_enu": [
+                -14.0,
+                -15.6532,
+                1.5402
+              ],
+              "face_index": 10
+            }
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 375.0,
+        "sunlit_duration_h": 6.25,
+        "occluded_segments": [
+          {
+            "start": "2025-12-22T11:50+08:00",
+            "end": "2025-12-22T15:20+08:00",
+            "duration_min": 210.0,
+            "occluder_ids": [
+              "N1"
+            ]
+          },
+          {
+            "start": "2025-12-22T16:55+08:00",
+            "end": "2025-12-22T17:05+08:00",
+            "duration_min": 10.0,
+            "occluder_ids": [
+              "N2"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-12-22T07:10+08:00",
+            "end": "2025-12-22T11:50+08:00",
+            "duration_min": 280.0
+          },
+          {
+            "start": "2025-12-22T15:20+08:00",
+            "end": "2025-12-22T16:55+08:00",
+            "duration_min": 95.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "A",
+      "point_code": "W4",
+      "date": "2025-12-22",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 0.0,
+        "window_normal_azimuth_deg": 180.0,
+        "point_model_xyz": [
+          -6.0,
+          -5.0,
+          25.0
+        ],
+        "point_enu": [
+          -6.0,
+          -5.0,
+          25.0
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 10,
+          "samples_sunlit": 10,
+          "samples_occluded": 0,
+          "samples_facade_away": 0,
+          "sunlit_sample_ratio": 1.0,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-12-22T08:00+08:00",
+            "elevation": 9.7108,
+            "azimuth": 125.6478,
+            "sun_vector_enu": [
+              0.800971,
+              -0.574451,
+              0.168676
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T09:00+08:00",
+            "elevation": 19.3601,
+            "azimuth": 135.7849,
+            "sun_vector_enu": [
+              0.657922,
+              -0.676198,
+              0.331504
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T10:00+08:00",
+            "elevation": 27.2195,
+            "azimuth": 148.089,
+            "sun_vector_enu": [
+              0.470064,
+              -0.754867,
+              0.457401
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T11:00+08:00",
+            "elevation": 32.5334,
+            "azimuth": 162.737,
+            "sun_vector_enu": [
+              0.250191,
+              -0.805099,
+              0.537792
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T12:00+08:00",
+            "elevation": 34.5552,
+            "azimuth": 179.0763,
+            "sun_vector_enu": [
+              0.013277,
+              -0.823473,
+              0.5672
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T13:00+08:00",
+            "elevation": 32.9306,
+            "azimuth": 195.517,
+            "sun_vector_enu": [
+              -0.224542,
+              -0.808737,
+              0.543623
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T14:00+08:00",
+            "elevation": 27.9478,
+            "azimuth": 210.4038,
+            "sun_vector_enu": [
+              -0.447068,
+              -0.761894,
+              0.468667
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T15:00+08:00",
+            "elevation": 20.3306,
+            "azimuth": 222.9694,
+            "sun_vector_enu": [
+              -0.639146,
+              -0.686134,
+              0.347437
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T16:00+08:00",
+            "elevation": 10.8472,
+            "azimuth": 233.3239,
+            "sun_vector_enu": [
+              -0.787695,
+              -0.586618,
+              0.18819
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T17:00+08:00",
+            "elevation": 0.1015,
+            "azimuth": 241.9576,
+            "sun_vector_enu": [
+              -0.882599,
+              -0.470123,
+              0.001772
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 595.0,
+        "sunlit_duration_h": 9.917,
+        "occluded_segments": [],
+        "sunlit_segments": [
+          {
+            "start": "2025-12-22T07:10+08:00",
+            "end": "2025-12-22T17:05+08:00",
+            "duration_min": 595.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "A",
+      "point_code": "W1",
+      "date": "2025-06-21",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 0.0,
+        "window_normal_azimuth_deg": 180.0,
+        "point_model_xyz": [
+          -6.0,
+          -5.0,
+          1.5
+        ],
+        "point_enu": [
+          -6.0,
+          -5.0,
+          1.5
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 14,
+          "samples_sunlit": 4,
+          "samples_occluded": 3,
+          "samples_facade_away": 7,
+          "sunlit_sample_ratio": 0.2857,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-06-21T06:00+08:00",
+            "elevation": 10.8697,
+            "azimuth": 69.0478,
+            "sun_vector_enu": [
+              0.917124,
+              0.351173,
+              0.188575
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T07:00+08:00",
+            "elevation": 22.9921,
+            "azimuth": 75.8567,
+            "sun_vector_enu": [
+              0.892654,
+              0.224936,
+              0.390605
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T08:00+08:00",
+            "elevation": 35.4775,
+            "azimuth": 82.4957,
+            "sun_vector_enu": [
+              0.807369,
+              0.106354,
+              0.580383
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T09:00+08:00",
+            "elevation": 48.1575,
+            "azimuth": 89.6989,
+            "sun_vector_enu": [
+              0.667076,
+              0.003506,
+              0.744981
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T10:00+08:00",
+            "elevation": 60.8307,
+            "azimuth": 99.0424,
+            "sun_vector_enu": [
+              0.481335,
+              -0.076601,
+              0.873183
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T11:00+08:00",
+            "elevation": 72.9901,
+            "azimuth": 116.0586,
+            "sun_vector_enu": [
+              0.262799,
+              -0.128508,
+              0.956254
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T12:00+08:00",
+            "elevation": 81.3153,
+            "azimuth": 169.9474,
+            "sun_vector_enu": [
+              0.026357,
+              -0.148678,
+              0.988534
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T13:00+08:00",
+            "elevation": 75.426,
+            "azimuth": 237.3551,
+            "sun_vector_enu": [
+              -0.211881,
+              -0.135738,
+              0.967823
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T14:00+08:00",
+            "elevation": 63.5769,
+            "azimuth": 258.2569,
+            "sun_vector_enu": [
+              -0.435682,
+              -0.090567,
+              0.895532
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（跨西立面，下午遮挡，上午边缘擦过）",
+              "distance_m": 18.332,
+              "hit_point_enu": [
+                -14.0,
+                -6.663,
+                17.9438
+              ],
+              "face_index": 11
+            }
+          },
+          {
+            "time_local": "2025-06-21T15:00+08:00",
+            "elevation": 50.9492,
+            "azimuth": 268.5224,
+            "sun_vector_enu": [
+              -0.629799,
+              -0.016246,
+              0.776588
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（跨西立面，下午遮挡，上午边缘擦过）",
+              "distance_m": 12.6725,
+              "hit_point_enu": [
+                -14.0,
+                -5.2064,
+                11.3646
+              ],
+              "face_index": 11
+            }
+          },
+          {
+            "time_local": "2025-06-21T16:00+08:00",
+            "elevation": 38.25,
+            "azimuth": 276.0055,
+            "sun_vector_enu": [
+              -0.781007,
+              0.082163,
+              0.619094
+            ],
+            "facade_faces_sun": false,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（跨西立面，下午遮挡，上午边缘擦过）",
+              "distance_m": 10.2132,
+              "hit_point_enu": [
+                -14.0,
+                -4.1584,
+                7.8415
+              ],
+              "face_index": 11
+            }
+          },
+          {
+            "time_local": "2025-06-21T17:00+08:00",
+            "elevation": 25.7078,
+            "azimuth": 282.6915,
+            "sun_vector_enu": [
+              -0.879004,
+              0.197954,
+              0.433782
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T18:00+08:00",
+            "elevation": 13.4901,
+            "azimuth": 289.4151,
+            "sun_vector_enu": [
+              -0.917115,
+              0.323238,
+              0.233277
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T19:00+08:00",
+            "elevation": 1.7902,
+            "azimuth": 296.7244,
+            "sun_vector_enu": [
+              -0.892744,
+              0.449479,
+              0.031239
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 295.0,
+        "sunlit_duration_h": 4.917,
+        "occluded_segments": [
+          {
+            "start": "2025-06-21T05:05+08:00",
+            "end": "2025-06-21T09:05+08:00",
+            "duration_min": 240.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          },
+          {
+            "start": "2025-06-21T14:00+08:00",
+            "end": "2025-06-21T16:10+08:00",
+            "duration_min": 130.0,
+            "occluder_ids": [
+              "N2"
+            ]
+          },
+          {
+            "start": "2025-06-21T16:10+08:00",
+            "end": "2025-06-21T19:10+08:00",
+            "duration_min": 180.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-06-21T09:05+08:00",
+            "end": "2025-06-21T14:00+08:00",
+            "duration_min": 295.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "A",
+      "point_code": "W2",
+      "date": "2025-06-21",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 0.0,
+        "window_normal_azimuth_deg": 180.0,
+        "point_model_xyz": [
+          0.0,
+          -5.0,
+          10.0
+        ],
+        "point_enu": [
+          0.0,
+          -5.0,
+          10.0
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 14,
+          "samples_sunlit": 6,
+          "samples_occluded": 0,
+          "samples_facade_away": 8,
+          "sunlit_sample_ratio": 0.4286,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-06-21T06:00+08:00",
+            "elevation": 10.8697,
+            "azimuth": 69.0478,
+            "sun_vector_enu": [
+              0.917124,
+              0.351173,
+              0.188575
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T07:00+08:00",
+            "elevation": 22.9921,
+            "azimuth": 75.8567,
+            "sun_vector_enu": [
+              0.892654,
+              0.224936,
+              0.390605
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T08:00+08:00",
+            "elevation": 35.4775,
+            "azimuth": 82.4957,
+            "sun_vector_enu": [
+              0.807369,
+              0.106354,
+              0.580383
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T09:00+08:00",
+            "elevation": 48.1575,
+            "azimuth": 89.6989,
+            "sun_vector_enu": [
+              0.667076,
+              0.003506,
+              0.744981
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T10:00+08:00",
+            "elevation": 60.8307,
+            "azimuth": 99.0424,
+            "sun_vector_enu": [
+              0.481335,
+              -0.076601,
+              0.873183
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T11:00+08:00",
+            "elevation": 72.9901,
+            "azimuth": 116.0586,
+            "sun_vector_enu": [
+              0.262799,
+              -0.128508,
+              0.956254
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T12:00+08:00",
+            "elevation": 81.3153,
+            "azimuth": 169.9474,
+            "sun_vector_enu": [
+              0.026357,
+              -0.148678,
+              0.988534
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T13:00+08:00",
+            "elevation": 75.426,
+            "azimuth": 237.3551,
+            "sun_vector_enu": [
+              -0.211881,
+              -0.135738,
+              0.967823
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T14:00+08:00",
+            "elevation": 63.5769,
+            "azimuth": 258.2569,
+            "sun_vector_enu": [
+              -0.435682,
+              -0.090567,
+              0.895532
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T15:00+08:00",
+            "elevation": 50.9492,
+            "azimuth": 268.5224,
+            "sun_vector_enu": [
+              -0.629799,
+              -0.016246,
+              0.776588
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T16:00+08:00",
+            "elevation": 38.25,
+            "azimuth": 276.0055,
+            "sun_vector_enu": [
+              -0.781007,
+              0.082163,
+              0.619094
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T17:00+08:00",
+            "elevation": 25.7078,
+            "azimuth": 282.6915,
+            "sun_vector_enu": [
+              -0.879004,
+              0.197954,
+              0.433782
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T18:00+08:00",
+            "elevation": 13.4901,
+            "azimuth": 289.4151,
+            "sun_vector_enu": [
+              -0.917115,
+              0.323238,
+              0.233277
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T19:00+08:00",
+            "elevation": 1.7902,
+            "azimuth": 296.7244,
+            "sun_vector_enu": [
+              -0.892744,
+              0.449479,
+              0.031239
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 370.0,
+        "sunlit_duration_h": 6.167,
+        "occluded_segments": [
+          {
+            "start": "2025-06-21T05:05+08:00",
+            "end": "2025-06-21T09:05+08:00",
+            "duration_min": 240.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          },
+          {
+            "start": "2025-06-21T15:15+08:00",
+            "end": "2025-06-21T19:10+08:00",
+            "duration_min": 235.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-06-21T09:05+08:00",
+            "end": "2025-06-21T15:15+08:00",
+            "duration_min": 370.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "A",
+      "point_code": "W3",
+      "date": "2025-06-21",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 0.0,
+        "window_normal_azimuth_deg": 180.0,
+        "point_model_xyz": [
+          6.0,
+          -5.0,
+          1.5
+        ],
+        "point_enu": [
+          6.0,
+          -5.0,
+          1.5
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 14,
+          "samples_sunlit": 6,
+          "samples_occluded": 0,
+          "samples_facade_away": 8,
+          "sunlit_sample_ratio": 0.4286,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-06-21T06:00+08:00",
+            "elevation": 10.8697,
+            "azimuth": 69.0478,
+            "sun_vector_enu": [
+              0.917124,
+              0.351173,
+              0.188575
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T07:00+08:00",
+            "elevation": 22.9921,
+            "azimuth": 75.8567,
+            "sun_vector_enu": [
+              0.892654,
+              0.224936,
+              0.390605
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T08:00+08:00",
+            "elevation": 35.4775,
+            "azimuth": 82.4957,
+            "sun_vector_enu": [
+              0.807369,
+              0.106354,
+              0.580383
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T09:00+08:00",
+            "elevation": 48.1575,
+            "azimuth": 89.6989,
+            "sun_vector_enu": [
+              0.667076,
+              0.003506,
+              0.744981
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T10:00+08:00",
+            "elevation": 60.8307,
+            "azimuth": 99.0424,
+            "sun_vector_enu": [
+              0.481335,
+              -0.076601,
+              0.873183
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T11:00+08:00",
+            "elevation": 72.9901,
+            "azimuth": 116.0586,
+            "sun_vector_enu": [
+              0.262799,
+              -0.128508,
+              0.956254
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T12:00+08:00",
+            "elevation": 81.3153,
+            "azimuth": 169.9474,
+            "sun_vector_enu": [
+              0.026357,
+              -0.148678,
+              0.988534
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T13:00+08:00",
+            "elevation": 75.426,
+            "azimuth": 237.3551,
+            "sun_vector_enu": [
+              -0.211881,
+              -0.135738,
+              0.967823
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T14:00+08:00",
+            "elevation": 63.5769,
+            "azimuth": 258.2569,
+            "sun_vector_enu": [
+              -0.435682,
+              -0.090567,
+              0.895532
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T15:00+08:00",
+            "elevation": 50.9492,
+            "azimuth": 268.5224,
+            "sun_vector_enu": [
+              -0.629799,
+              -0.016246,
+              0.776588
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T16:00+08:00",
+            "elevation": 38.25,
+            "azimuth": 276.0055,
+            "sun_vector_enu": [
+              -0.781007,
+              0.082163,
+              0.619094
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T17:00+08:00",
+            "elevation": 25.7078,
+            "azimuth": 282.6915,
+            "sun_vector_enu": [
+              -0.879004,
+              0.197954,
+              0.433782
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T18:00+08:00",
+            "elevation": 13.4901,
+            "azimuth": 289.4151,
+            "sun_vector_enu": [
+              -0.917115,
+              0.323238,
+              0.233277
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T19:00+08:00",
+            "elevation": 1.7902,
+            "azimuth": 296.7244,
+            "sun_vector_enu": [
+              -0.892744,
+              0.449479,
+              0.031239
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 370.0,
+        "sunlit_duration_h": 6.167,
+        "occluded_segments": [
+          {
+            "start": "2025-06-21T05:05+08:00",
+            "end": "2025-06-21T09:05+08:00",
+            "duration_min": 240.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          },
+          {
+            "start": "2025-06-21T15:15+08:00",
+            "end": "2025-06-21T19:10+08:00",
+            "duration_min": 235.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-06-21T09:05+08:00",
+            "end": "2025-06-21T15:15+08:00",
+            "duration_min": 370.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "A",
+      "point_code": "W4",
+      "date": "2025-06-21",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 0.0,
+        "window_normal_azimuth_deg": 180.0,
+        "point_model_xyz": [
+          -6.0,
+          -5.0,
+          25.0
+        ],
+        "point_enu": [
+          -6.0,
+          -5.0,
+          25.0
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 14,
+          "samples_sunlit": 6,
+          "samples_occluded": 0,
+          "samples_facade_away": 8,
+          "sunlit_sample_ratio": 0.4286,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-06-21T06:00+08:00",
+            "elevation": 10.8697,
+            "azimuth": 69.0478,
+            "sun_vector_enu": [
+              0.917124,
+              0.351173,
+              0.188575
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T07:00+08:00",
+            "elevation": 22.9921,
+            "azimuth": 75.8567,
+            "sun_vector_enu": [
+              0.892654,
+              0.224936,
+              0.390605
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T08:00+08:00",
+            "elevation": 35.4775,
+            "azimuth": 82.4957,
+            "sun_vector_enu": [
+              0.807369,
+              0.106354,
+              0.580383
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T09:00+08:00",
+            "elevation": 48.1575,
+            "azimuth": 89.6989,
+            "sun_vector_enu": [
+              0.667076,
+              0.003506,
+              0.744981
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T10:00+08:00",
+            "elevation": 60.8307,
+            "azimuth": 99.0424,
+            "sun_vector_enu": [
+              0.481335,
+              -0.076601,
+              0.873183
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T11:00+08:00",
+            "elevation": 72.9901,
+            "azimuth": 116.0586,
+            "sun_vector_enu": [
+              0.262799,
+              -0.128508,
+              0.956254
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T12:00+08:00",
+            "elevation": 81.3153,
+            "azimuth": 169.9474,
+            "sun_vector_enu": [
+              0.026357,
+              -0.148678,
+              0.988534
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T13:00+08:00",
+            "elevation": 75.426,
+            "azimuth": 237.3551,
+            "sun_vector_enu": [
+              -0.211881,
+              -0.135738,
+              0.967823
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T14:00+08:00",
+            "elevation": 63.5769,
+            "azimuth": 258.2569,
+            "sun_vector_enu": [
+              -0.435682,
+              -0.090567,
+              0.895532
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T15:00+08:00",
+            "elevation": 50.9492,
+            "azimuth": 268.5224,
+            "sun_vector_enu": [
+              -0.629799,
+              -0.016246,
+              0.776588
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T16:00+08:00",
+            "elevation": 38.25,
+            "azimuth": 276.0055,
+            "sun_vector_enu": [
+              -0.781007,
+              0.082163,
+              0.619094
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T17:00+08:00",
+            "elevation": 25.7078,
+            "azimuth": 282.6915,
+            "sun_vector_enu": [
+              -0.879004,
+              0.197954,
+              0.433782
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T18:00+08:00",
+            "elevation": 13.4901,
+            "azimuth": 289.4151,
+            "sun_vector_enu": [
+              -0.917115,
+              0.323238,
+              0.233277
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T19:00+08:00",
+            "elevation": 1.7902,
+            "azimuth": 296.7244,
+            "sun_vector_enu": [
+              -0.892744,
+              0.449479,
+              0.031239
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 370.0,
+        "sunlit_duration_h": 6.167,
+        "occluded_segments": [
+          {
+            "start": "2025-06-21T05:05+08:00",
+            "end": "2025-06-21T09:05+08:00",
+            "duration_min": 240.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          },
+          {
+            "start": "2025-06-21T15:15+08:00",
+            "end": "2025-06-21T19:10+08:00",
+            "duration_min": 235.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-06-21T09:05+08:00",
+            "end": "2025-06-21T15:15+08:00",
+            "duration_min": 370.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "B",
+      "point_code": "W1",
+      "date": "2025-12-22",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 30.0,
+        "window_normal_azimuth_deg": 210.0,
+        "point_model_xyz": [
+          -6.0,
+          -5.0,
+          1.5
+        ],
+        "point_enu": [
+          -7.6962,
+          -1.3301,
+          1.5
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 10,
+          "samples_sunlit": 7,
+          "samples_occluded": 3,
+          "samples_facade_away": 0,
+          "sunlit_sample_ratio": 0.7,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-12-22T08:00+08:00",
+            "elevation": 9.7108,
+            "azimuth": 125.6478,
+            "sun_vector_enu": [
+              0.800971,
+              -0.574451,
+              0.168676
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T09:00+08:00",
+            "elevation": 19.3601,
+            "azimuth": 135.7849,
+            "sun_vector_enu": [
+              0.657922,
+              -0.676198,
+              0.331504
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T10:00+08:00",
+            "elevation": 27.2195,
+            "azimuth": 148.089,
+            "sun_vector_enu": [
+              0.470064,
+              -0.754867,
+              0.457401
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T11:00+08:00",
+            "elevation": 32.5334,
+            "azimuth": 162.737,
+            "sun_vector_enu": [
+              0.250191,
+              -0.805099,
+              0.537792
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T12:00+08:00",
+            "elevation": 34.5552,
+            "azimuth": 179.0763,
+            "sun_vector_enu": [
+              0.013277,
+              -0.823473,
+              0.5672
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（旋转后位于西南）",
+              "distance_m": 17.6626,
+              "hit_point_enu": [
+                -7.4612,
+                -15.8995,
+                11.5352
+              ],
+              "face_index": 7
+            }
+          },
+          {
+            "time_local": "2025-12-22T13:00+08:00",
+            "elevation": 32.9306,
+            "azimuth": 195.517,
+            "sun_vector_enu": [
+              -0.224542,
+              -0.808737,
+              0.543623
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（旋转后位于西南）",
+              "distance_m": 15.3516,
+              "hit_point_enu": [
+                -11.15,
+                -13.7698,
+                9.8618
+              ],
+              "face_index": 7
+            }
+          },
+          {
+            "time_local": "2025-12-22T14:00+08:00",
+            "elevation": 27.9478,
+            "azimuth": 210.4038,
+            "sun_vector_enu": [
+              -0.447068,
+              -0.761894,
+              0.468667
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（旋转后位于西南）",
+              "distance_m": 14.1206,
+              "hit_point_enu": [
+                -14.0224,
+                -12.1114,
+                8.1319
+              ],
+              "face_index": 7
+            }
+          },
+          {
+            "time_local": "2025-12-22T15:00+08:00",
+            "elevation": 20.3306,
+            "azimuth": 222.9694,
+            "sun_vector_enu": [
+              -0.639146,
+              -0.686134,
+              0.347437
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T16:00+08:00",
+            "elevation": 10.8472,
+            "azimuth": 233.3239,
+            "sun_vector_enu": [
+              -0.787695,
+              -0.586618,
+              0.18819
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T17:00+08:00",
+            "elevation": 0.1015,
+            "azimuth": 241.9576,
+            "sun_vector_enu": [
+              -0.882599,
+              -0.470123,
+              0.001772
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 385.0,
+        "sunlit_duration_h": 6.417,
+        "occluded_segments": [
+          {
+            "start": "2025-12-22T07:10+08:00",
+            "end": "2025-12-22T07:25+08:00",
+            "duration_min": 15.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          },
+          {
+            "start": "2025-12-22T11:05+08:00",
+            "end": "2025-12-22T14:20+08:00",
+            "duration_min": 195.0,
+            "occluder_ids": [
+              "N1"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-12-22T07:25+08:00",
+            "end": "2025-12-22T11:05+08:00",
+            "duration_min": 220.0
+          },
+          {
+            "start": "2025-12-22T14:20+08:00",
+            "end": "2025-12-22T17:05+08:00",
+            "duration_min": 165.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "B",
+      "point_code": "W2",
+      "date": "2025-12-22",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 30.0,
+        "window_normal_azimuth_deg": 210.0,
+        "point_model_xyz": [
+          0.0,
+          -5.0,
+          10.0
+        ],
+        "point_enu": [
+          -2.5,
+          -4.3301,
+          10.0
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 10,
+          "samples_sunlit": 8,
+          "samples_occluded": 2,
+          "samples_facade_away": 0,
+          "sunlit_sample_ratio": 0.8,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-12-22T08:00+08:00",
+            "elevation": 9.7108,
+            "azimuth": 125.6478,
+            "sun_vector_enu": [
+              0.800971,
+              -0.574451,
+              0.168676
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T09:00+08:00",
+            "elevation": 19.3601,
+            "azimuth": 135.7849,
+            "sun_vector_enu": [
+              0.657922,
+              -0.676198,
+              0.331504
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T10:00+08:00",
+            "elevation": 27.2195,
+            "azimuth": 148.089,
+            "sun_vector_enu": [
+              0.470064,
+              -0.754867,
+              0.457401
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T11:00+08:00",
+            "elevation": 32.5334,
+            "azimuth": 162.737,
+            "sun_vector_enu": [
+              0.250191,
+              -0.805099,
+              0.537792
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T12:00+08:00",
+            "elevation": 34.5552,
+            "azimuth": 179.0763,
+            "sun_vector_enu": [
+              0.013277,
+              -0.823473,
+              0.5672
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T13:00+08:00",
+            "elevation": 32.9306,
+            "azimuth": 195.517,
+            "sun_vector_enu": [
+              -0.224542,
+              -0.808737,
+              0.543623
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T14:00+08:00",
+            "elevation": 27.9478,
+            "azimuth": 210.4038,
+            "sun_vector_enu": [
+              -0.447068,
+              -0.761894,
+              0.468667
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T15:00+08:00",
+            "elevation": 20.3306,
+            "azimuth": 222.9694,
+            "sun_vector_enu": [
+              -0.639146,
+              -0.686134,
+              0.347437
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（旋转后位于西南）",
+              "distance_m": 13.6494,
+              "hit_point_enu": [
+                -11.2431,
+                -13.716,
+                14.7527
+              ],
+              "face_index": 7
+            }
+          },
+          {
+            "time_local": "2025-12-22T16:00+08:00",
+            "elevation": 10.8472,
+            "azimuth": 233.3239,
+            "sun_vector_enu": [
+              -0.787695,
+              -0.586618,
+              0.18819
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（旋转后位于西南）",
+              "distance_m": 13.83,
+              "hit_point_enu": [
+                -13.4175,
+                -12.4607,
+                12.6083
+              ],
+              "face_index": 7
+            }
+          },
+          {
+            "time_local": "2025-12-22T17:00+08:00",
+            "elevation": 0.1015,
+            "azimuth": 241.9576,
+            "sun_vector_enu": [
+              -0.882599,
+              -0.470123,
+              0.001772
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 470.0,
+        "sunlit_duration_h": 7.833,
+        "occluded_segments": [
+          {
+            "start": "2025-12-22T07:10+08:00",
+            "end": "2025-12-22T07:25+08:00",
+            "duration_min": 15.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          },
+          {
+            "start": "2025-12-22T14:55+08:00",
+            "end": "2025-12-22T16:45+08:00",
+            "duration_min": 110.0,
+            "occluder_ids": [
+              "N1"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-12-22T07:25+08:00",
+            "end": "2025-12-22T14:55+08:00",
+            "duration_min": 450.0
+          },
+          {
+            "start": "2025-12-22T16:45+08:00",
+            "end": "2025-12-22T17:05+08:00",
+            "duration_min": 20.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "B",
+      "point_code": "W3",
+      "date": "2025-12-22",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 30.0,
+        "window_normal_azimuth_deg": 210.0,
+        "point_model_xyz": [
+          6.0,
+          -5.0,
+          1.5
+        ],
+        "point_enu": [
+          2.6962,
+          -7.3301,
+          1.5
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 10,
+          "samples_sunlit": 6,
+          "samples_occluded": 4,
+          "samples_facade_away": 0,
+          "sunlit_sample_ratio": 0.6,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-12-22T08:00+08:00",
+            "elevation": 9.7108,
+            "azimuth": 125.6478,
+            "sun_vector_enu": [
+              0.800971,
+              -0.574451,
+              0.168676
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T09:00+08:00",
+            "elevation": 19.3601,
+            "azimuth": 135.7849,
+            "sun_vector_enu": [
+              0.657922,
+              -0.676198,
+              0.331504
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T10:00+08:00",
+            "elevation": 27.2195,
+            "azimuth": 148.089,
+            "sun_vector_enu": [
+              0.470064,
+              -0.754867,
+              0.457401
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T11:00+08:00",
+            "elevation": 32.5334,
+            "azimuth": 162.737,
+            "sun_vector_enu": [
+              0.250191,
+              -0.805099,
+              0.537792
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T12:00+08:00",
+            "elevation": 34.5552,
+            "azimuth": 179.0763,
+            "sun_vector_enu": [
+              0.013277,
+              -0.823473,
+              0.5672
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T13:00+08:00",
+            "elevation": 32.9306,
+            "azimuth": 195.517,
+            "sun_vector_enu": [
+              -0.224542,
+              -0.808737,
+              0.543623
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T14:00+08:00",
+            "elevation": 27.9478,
+            "azimuth": 210.4038,
+            "sun_vector_enu": [
+              -0.447068,
+              -0.761894,
+              0.468667
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（旋转后位于西南）",
+              "distance_m": 14.1206,
+              "hit_point_enu": [
+                -3.6301,
+                -18.1114,
+                8.1319
+              ],
+              "face_index": 9
+            }
+          },
+          {
+            "time_local": "2025-12-22T15:00+08:00",
+            "elevation": 20.3306,
+            "azimuth": 222.9694,
+            "sun_vector_enu": [
+              -0.639146,
+              -0.686134,
+              0.347437
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（旋转后位于西南）",
+              "distance_m": 13.6494,
+              "hit_point_enu": [
+                -6.047,
+                -16.716,
+                6.2527
+              ],
+              "face_index": 9
+            }
+          },
+          {
+            "time_local": "2025-12-22T16:00+08:00",
+            "elevation": 10.8472,
+            "azimuth": 233.3239,
+            "sun_vector_enu": [
+              -0.787695,
+              -0.586618,
+              0.18819
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（旋转后位于西南）",
+              "distance_m": 13.83,
+              "hit_point_enu": [
+                -8.2213,
+                -15.4607,
+                4.1083
+              ],
+              "face_index": 9
+            }
+          },
+          {
+            "time_local": "2025-12-22T17:00+08:00",
+            "elevation": 0.1015,
+            "azimuth": 241.9576,
+            "sun_vector_enu": [
+              -0.882599,
+              -0.470123,
+              0.001772
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N1",
+              "building_name": "南侧邻楼（旋转后位于西南）",
+              "distance_m": 14.703,
+              "hit_point_enu": [
+                -10.3071,
+                -14.2564,
+                1.5261
+              ],
+              "face_index": 9
+            }
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 375.0,
+        "sunlit_duration_h": 6.25,
+        "occluded_segments": [
+          {
+            "start": "2025-12-22T07:10+08:00",
+            "end": "2025-12-22T07:25+08:00",
+            "duration_min": 15.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          },
+          {
+            "start": "2025-12-22T13:40+08:00",
+            "end": "2025-12-22T17:05+08:00",
+            "duration_min": 205.0,
+            "occluder_ids": [
+              "N1"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-12-22T07:25+08:00",
+            "end": "2025-12-22T13:40+08:00",
+            "duration_min": 375.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "B",
+      "point_code": "W4",
+      "date": "2025-12-22",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 30.0,
+        "window_normal_azimuth_deg": 210.0,
+        "point_model_xyz": [
+          -6.0,
+          -5.0,
+          25.0
+        ],
+        "point_enu": [
+          -7.6962,
+          -1.3301,
+          25.0
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 10,
+          "samples_sunlit": 10,
+          "samples_occluded": 0,
+          "samples_facade_away": 0,
+          "sunlit_sample_ratio": 1.0,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-12-22T08:00+08:00",
+            "elevation": 9.7108,
+            "azimuth": 125.6478,
+            "sun_vector_enu": [
+              0.800971,
+              -0.574451,
+              0.168676
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T09:00+08:00",
+            "elevation": 19.3601,
+            "azimuth": 135.7849,
+            "sun_vector_enu": [
+              0.657922,
+              -0.676198,
+              0.331504
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T10:00+08:00",
+            "elevation": 27.2195,
+            "azimuth": 148.089,
+            "sun_vector_enu": [
+              0.470064,
+              -0.754867,
+              0.457401
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T11:00+08:00",
+            "elevation": 32.5334,
+            "azimuth": 162.737,
+            "sun_vector_enu": [
+              0.250191,
+              -0.805099,
+              0.537792
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T12:00+08:00",
+            "elevation": 34.5552,
+            "azimuth": 179.0763,
+            "sun_vector_enu": [
+              0.013277,
+              -0.823473,
+              0.5672
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T13:00+08:00",
+            "elevation": 32.9306,
+            "azimuth": 195.517,
+            "sun_vector_enu": [
+              -0.224542,
+              -0.808737,
+              0.543623
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T14:00+08:00",
+            "elevation": 27.9478,
+            "azimuth": 210.4038,
+            "sun_vector_enu": [
+              -0.447068,
+              -0.761894,
+              0.468667
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T15:00+08:00",
+            "elevation": 20.3306,
+            "azimuth": 222.9694,
+            "sun_vector_enu": [
+              -0.639146,
+              -0.686134,
+              0.347437
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T16:00+08:00",
+            "elevation": 10.8472,
+            "azimuth": 233.3239,
+            "sun_vector_enu": [
+              -0.787695,
+              -0.586618,
+              0.18819
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-12-22T17:00+08:00",
+            "elevation": 0.1015,
+            "azimuth": 241.9576,
+            "sun_vector_enu": [
+              -0.882599,
+              -0.470123,
+              0.001772
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 580.0,
+        "sunlit_duration_h": 9.667,
+        "occluded_segments": [
+          {
+            "start": "2025-12-22T07:10+08:00",
+            "end": "2025-12-22T07:25+08:00",
+            "duration_min": 15.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-12-22T07:25+08:00",
+            "end": "2025-12-22T17:05+08:00",
+            "duration_min": 580.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "B",
+      "point_code": "W1",
+      "date": "2025-06-21",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 30.0,
+        "window_normal_azimuth_deg": 210.0,
+        "point_model_xyz": [
+          -6.0,
+          -5.0,
+          1.5
+        ],
+        "point_enu": [
+          -7.6962,
+          -1.3301,
+          1.5
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 14,
+          "samples_sunlit": 3,
+          "samples_occluded": 5,
+          "samples_facade_away": 6,
+          "sunlit_sample_ratio": 0.2143,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-06-21T06:00+08:00",
+            "elevation": 10.8697,
+            "azimuth": 69.0478,
+            "sun_vector_enu": [
+              0.917124,
+              0.351173,
+              0.188575
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T07:00+08:00",
+            "elevation": 22.9921,
+            "azimuth": 75.8567,
+            "sun_vector_enu": [
+              0.892654,
+              0.224936,
+              0.390605
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T08:00+08:00",
+            "elevation": 35.4775,
+            "azimuth": 82.4957,
+            "sun_vector_enu": [
+              0.807369,
+              0.106354,
+              0.580383
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T09:00+08:00",
+            "elevation": 48.1575,
+            "azimuth": 89.6989,
+            "sun_vector_enu": [
+              0.667076,
+              0.003506,
+              0.744981
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T10:00+08:00",
+            "elevation": 60.8307,
+            "azimuth": 99.0424,
+            "sun_vector_enu": [
+              0.481335,
+              -0.076601,
+              0.873183
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T11:00+08:00",
+            "elevation": 72.9901,
+            "azimuth": 116.0586,
+            "sun_vector_enu": [
+              0.262799,
+              -0.128508,
+              0.956254
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T12:00+08:00",
+            "elevation": 81.3153,
+            "azimuth": 169.9474,
+            "sun_vector_enu": [
+              0.026357,
+              -0.148678,
+              0.988534
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T13:00+08:00",
+            "elevation": 75.426,
+            "azimuth": 237.3551,
+            "sun_vector_enu": [
+              -0.211881,
+              -0.135738,
+              0.967823
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T14:00+08:00",
+            "elevation": 63.5769,
+            "azimuth": 258.2569,
+            "sun_vector_enu": [
+              -0.435682,
+              -0.090567,
+              0.895532
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T15:00+08:00",
+            "elevation": 50.9492,
+            "azimuth": 268.5224,
+            "sun_vector_enu": [
+              -0.629799,
+              -0.016246,
+              0.776588
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 14.8593,
+              "hit_point_enu": [
+                -17.0734,
+                -1.572,
+                13.0628
+              ],
+              "face_index": 11
+            }
+          },
+          {
+            "time_local": "2025-06-21T16:00+08:00",
+            "elevation": 38.25,
+            "azimuth": 276.0055,
+            "sun_vector_enu": [
+              -0.781007,
+              0.082163,
+              0.619094
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 11.1205,
+              "hit_point_enu": [
+                -16.4048,
+                -0.414,
+                8.4032
+              ],
+              "face_index": 11
+            }
+          },
+          {
+            "time_local": "2025-06-21T17:00+08:00",
+            "elevation": 25.7078,
+            "azimuth": 282.6915,
+            "sun_vector_enu": [
+              -0.879004,
+              0.197954,
+              0.433782
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 9.27,
+              "hit_point_enu": [
+                -15.8709,
+                0.5108,
+                5.5342
+              ],
+              "face_index": 11
+            }
+          },
+          {
+            "time_local": "2025-06-21T18:00+08:00",
+            "elevation": 13.4901,
+            "azimuth": 289.4151,
+            "sun_vector_enu": [
+              -0.917115,
+              0.323238,
+              0.233277
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 8.3394,
+              "hit_point_enu": [
+                -15.3718,
+                1.3752,
+                3.4524
+              ],
+              "face_index": 10
+            }
+          },
+          {
+            "time_local": "2025-06-21T19:00+08:00",
+            "elevation": 1.7902,
+            "azimuth": 296.7244,
+            "sun_vector_enu": [
+              -0.892744,
+              0.449479,
+              0.031239
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 7.987,
+              "hit_point_enu": [
+                -14.8533,
+                2.2734,
+                1.7504
+              ],
+              "face_index": 10
+            }
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 195.0,
+        "sunlit_duration_h": 3.25,
+        "occluded_segments": [
+          {
+            "start": "2025-06-21T05:05+08:00",
+            "end": "2025-06-21T11:10+08:00",
+            "duration_min": 365.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          },
+          {
+            "start": "2025-06-21T14:25+08:00",
+            "end": "2025-06-21T19:10+08:00",
+            "duration_min": 285.0,
+            "occluder_ids": [
+              "N2"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-06-21T11:10+08:00",
+            "end": "2025-06-21T14:25+08:00",
+            "duration_min": 195.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "B",
+      "point_code": "W2",
+      "date": "2025-06-21",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 30.0,
+        "window_normal_azimuth_deg": 210.0,
+        "point_model_xyz": [
+          0.0,
+          -5.0,
+          10.0
+        ],
+        "point_enu": [
+          -2.5,
+          -4.3301,
+          10.0
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 14,
+          "samples_sunlit": 5,
+          "samples_occluded": 3,
+          "samples_facade_away": 6,
+          "sunlit_sample_ratio": 0.3571,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-06-21T06:00+08:00",
+            "elevation": 10.8697,
+            "azimuth": 69.0478,
+            "sun_vector_enu": [
+              0.917124,
+              0.351173,
+              0.188575
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T07:00+08:00",
+            "elevation": 22.9921,
+            "azimuth": 75.8567,
+            "sun_vector_enu": [
+              0.892654,
+              0.224936,
+              0.390605
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T08:00+08:00",
+            "elevation": 35.4775,
+            "azimuth": 82.4957,
+            "sun_vector_enu": [
+              0.807369,
+              0.106354,
+              0.580383
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T09:00+08:00",
+            "elevation": 48.1575,
+            "azimuth": 89.6989,
+            "sun_vector_enu": [
+              0.667076,
+              0.003506,
+              0.744981
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T10:00+08:00",
+            "elevation": 60.8307,
+            "azimuth": 99.0424,
+            "sun_vector_enu": [
+              0.481335,
+              -0.076601,
+              0.873183
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T11:00+08:00",
+            "elevation": 72.9901,
+            "azimuth": 116.0586,
+            "sun_vector_enu": [
+              0.262799,
+              -0.128508,
+              0.956254
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T12:00+08:00",
+            "elevation": 81.3153,
+            "azimuth": 169.9474,
+            "sun_vector_enu": [
+              0.026357,
+              -0.148678,
+              0.988534
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T13:00+08:00",
+            "elevation": 75.426,
+            "azimuth": 237.3551,
+            "sun_vector_enu": [
+              -0.211881,
+              -0.135738,
+              0.967823
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T14:00+08:00",
+            "elevation": 63.5769,
+            "azimuth": 258.2569,
+            "sun_vector_enu": [
+              -0.435682,
+              -0.090567,
+              0.895532
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T15:00+08:00",
+            "elevation": 50.9492,
+            "azimuth": 268.5224,
+            "sun_vector_enu": [
+              -0.629799,
+              -0.016246,
+              0.776588
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T16:00+08:00",
+            "elevation": 38.25,
+            "azimuth": 276.0055,
+            "sun_vector_enu": [
+              -0.781007,
+              0.082163,
+              0.619094
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T17:00+08:00",
+            "elevation": 25.7078,
+            "azimuth": 282.6915,
+            "sun_vector_enu": [
+              -0.879004,
+              0.197954,
+              0.433782
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 16.245,
+              "hit_point_enu": [
+                -16.8058,
+                -1.1084,
+                17.0598
+              ],
+              "face_index": 11
+            }
+          },
+          {
+            "time_local": "2025-06-21T18:00+08:00",
+            "elevation": 13.4901,
+            "azimuth": 289.4151,
+            "sun_vector_enu": [
+              -0.917115,
+              0.323238,
+              0.233277
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 14.6164,
+              "hit_point_enu": [
+                -15.9325,
+                0.4042,
+                13.4167
+              ],
+              "face_index": 11
+            }
+          },
+          {
+            "time_local": "2025-06-21T19:00+08:00",
+            "elevation": 1.7902,
+            "azimuth": 296.7244,
+            "sun_vector_enu": [
+              -0.892744,
+              0.449479,
+              0.031239
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 13.9998,
+              "hit_point_enu": [
+                -15.025,
+                1.976,
+                10.4383
+              ],
+              "face_index": 11
+            }
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 340.0,
+        "sunlit_duration_h": 5.667,
+        "occluded_segments": [
+          {
+            "start": "2025-06-21T05:05+08:00",
+            "end": "2025-06-21T11:10+08:00",
+            "duration_min": 365.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          },
+          {
+            "start": "2025-06-21T16:50+08:00",
+            "end": "2025-06-21T19:10+08:00",
+            "duration_min": 140.0,
+            "occluder_ids": [
+              "N2"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-06-21T11:10+08:00",
+            "end": "2025-06-21T16:50+08:00",
+            "duration_min": 340.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "B",
+      "point_code": "W3",
+      "date": "2025-06-21",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 30.0,
+        "window_normal_azimuth_deg": 210.0,
+        "point_model_xyz": [
+          6.0,
+          -5.0,
+          1.5
+        ],
+        "point_enu": [
+          2.6962,
+          -7.3301,
+          1.5
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 14,
+          "samples_sunlit": 5,
+          "samples_occluded": 3,
+          "samples_facade_away": 6,
+          "sunlit_sample_ratio": 0.3571,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-06-21T06:00+08:00",
+            "elevation": 10.8697,
+            "azimuth": 69.0478,
+            "sun_vector_enu": [
+              0.917124,
+              0.351173,
+              0.188575
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T07:00+08:00",
+            "elevation": 22.9921,
+            "azimuth": 75.8567,
+            "sun_vector_enu": [
+              0.892654,
+              0.224936,
+              0.390605
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T08:00+08:00",
+            "elevation": 35.4775,
+            "azimuth": 82.4957,
+            "sun_vector_enu": [
+              0.807369,
+              0.106354,
+              0.580383
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T09:00+08:00",
+            "elevation": 48.1575,
+            "azimuth": 89.6989,
+            "sun_vector_enu": [
+              0.667076,
+              0.003506,
+              0.744981
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T10:00+08:00",
+            "elevation": 60.8307,
+            "azimuth": 99.0424,
+            "sun_vector_enu": [
+              0.481335,
+              -0.076601,
+              0.873183
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T11:00+08:00",
+            "elevation": 72.9901,
+            "azimuth": 116.0586,
+            "sun_vector_enu": [
+              0.262799,
+              -0.128508,
+              0.956254
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T12:00+08:00",
+            "elevation": 81.3153,
+            "azimuth": 169.9474,
+            "sun_vector_enu": [
+              0.026357,
+              -0.148678,
+              0.988534
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T13:00+08:00",
+            "elevation": 75.426,
+            "azimuth": 237.3551,
+            "sun_vector_enu": [
+              -0.211881,
+              -0.135738,
+              0.967823
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T14:00+08:00",
+            "elevation": 63.5769,
+            "azimuth": 258.2569,
+            "sun_vector_enu": [
+              -0.435682,
+              -0.090567,
+              0.895532
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T15:00+08:00",
+            "elevation": 50.9492,
+            "azimuth": 268.5224,
+            "sun_vector_enu": [
+              -0.629799,
+              -0.016246,
+              0.776588
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T16:00+08:00",
+            "elevation": 38.25,
+            "azimuth": 276.0055,
+            "sun_vector_enu": [
+              -0.781007,
+              0.082163,
+              0.619094
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T17:00+08:00",
+            "elevation": 25.7078,
+            "azimuth": 282.6915,
+            "sun_vector_enu": [
+              -0.879004,
+              0.197954,
+              0.433782
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 23.22,
+              "hit_point_enu": [
+                -17.7406,
+                -2.7277,
+                11.5854
+              ],
+              "face_index": 11
+            }
+          },
+          {
+            "time_local": "2025-06-21T18:00+08:00",
+            "elevation": 13.4901,
+            "azimuth": 289.4151,
+            "sun_vector_enu": [
+              -0.917115,
+              0.323238,
+              0.233277
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 20.8935,
+              "hit_point_enu": [
+                -16.4931,
+                -0.5669,
+                6.381
+              ],
+              "face_index": 10
+            }
+          },
+          {
+            "time_local": "2025-06-21T19:00+08:00",
+            "elevation": 1.7902,
+            "azimuth": 296.7244,
+            "sun_vector_enu": [
+              -0.892744,
+              0.449479,
+              0.031239
+            ],
+            "facade_faces_sun": true,
+            "occluded": true,
+            "nearest": {
+              "building_id": "N2",
+              "building_name": "西侧邻楼（旋转后位于西北）",
+              "distance_m": 20.0125,
+              "hit_point_enu": [
+                -15.1967,
+                1.6786,
+                2.1261
+              ],
+              "face_index": 10
+            }
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 300.0,
+        "sunlit_duration_h": 5.0,
+        "occluded_segments": [
+          {
+            "start": "2025-06-21T05:05+08:00",
+            "end": "2025-06-21T11:10+08:00",
+            "duration_min": 365.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          },
+          {
+            "start": "2025-06-21T16:10+08:00",
+            "end": "2025-06-21T19:10+08:00",
+            "duration_min": 180.0,
+            "occluder_ids": [
+              "N2"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-06-21T11:10+08:00",
+            "end": "2025-06-21T16:10+08:00",
+            "duration_min": 300.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    },
+    {
+      "scene_code": "B",
+      "point_code": "W4",
+      "date": "2025-06-21",
+      "coordinate_context": {
+        "lat": 32.0,
+        "lon": 118.8,
+        "timezone": "Asia/Shanghai",
+        "datum": "WGS84",
+        "model_north_deg": 30.0,
+        "window_normal_azimuth_deg": 210.0,
+        "point_model_xyz": [
+          -6.0,
+          -5.0,
+          25.0
+        ],
+        "point_enu": [
+          -7.6962,
+          -1.3301,
+          25.0
+        ]
+      },
+      "hourly": {
+        "summary": {
+          "sampling": "hourly_instant",
+          "samples_total": 14,
+          "samples_sunlit": 8,
+          "samples_occluded": 0,
+          "samples_facade_away": 6,
+          "sunlit_sample_ratio": 0.5714,
+          "note": "逐时为瞬时采样口径，样本数不等于日照小时数；连续时长请看 fine_grid 结果。"
+        },
+        "traces": [
+          {
+            "time_local": "2025-06-21T06:00+08:00",
+            "elevation": 10.8697,
+            "azimuth": 69.0478,
+            "sun_vector_enu": [
+              0.917124,
+              0.351173,
+              0.188575
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T07:00+08:00",
+            "elevation": 22.9921,
+            "azimuth": 75.8567,
+            "sun_vector_enu": [
+              0.892654,
+              0.224936,
+              0.390605
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T08:00+08:00",
+            "elevation": 35.4775,
+            "azimuth": 82.4957,
+            "sun_vector_enu": [
+              0.807369,
+              0.106354,
+              0.580383
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T09:00+08:00",
+            "elevation": 48.1575,
+            "azimuth": 89.6989,
+            "sun_vector_enu": [
+              0.667076,
+              0.003506,
+              0.744981
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T10:00+08:00",
+            "elevation": 60.8307,
+            "azimuth": 99.0424,
+            "sun_vector_enu": [
+              0.481335,
+              -0.076601,
+              0.873183
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T11:00+08:00",
+            "elevation": 72.9901,
+            "azimuth": 116.0586,
+            "sun_vector_enu": [
+              0.262799,
+              -0.128508,
+              0.956254
+            ],
+            "facade_faces_sun": false,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T12:00+08:00",
+            "elevation": 81.3153,
+            "azimuth": 169.9474,
+            "sun_vector_enu": [
+              0.026357,
+              -0.148678,
+              0.988534
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T13:00+08:00",
+            "elevation": 75.426,
+            "azimuth": 237.3551,
+            "sun_vector_enu": [
+              -0.211881,
+              -0.135738,
+              0.967823
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T14:00+08:00",
+            "elevation": 63.5769,
+            "azimuth": 258.2569,
+            "sun_vector_enu": [
+              -0.435682,
+              -0.090567,
+              0.895532
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T15:00+08:00",
+            "elevation": 50.9492,
+            "azimuth": 268.5224,
+            "sun_vector_enu": [
+              -0.629799,
+              -0.016246,
+              0.776588
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T16:00+08:00",
+            "elevation": 38.25,
+            "azimuth": 276.0055,
+            "sun_vector_enu": [
+              -0.781007,
+              0.082163,
+              0.619094
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T17:00+08:00",
+            "elevation": 25.7078,
+            "azimuth": 282.6915,
+            "sun_vector_enu": [
+              -0.879004,
+              0.197954,
+              0.433782
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T18:00+08:00",
+            "elevation": 13.4901,
+            "azimuth": 289.4151,
+            "sun_vector_enu": [
+              -0.917115,
+              0.323238,
+              0.233277
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          },
+          {
+            "time_local": "2025-06-21T19:00+08:00",
+            "elevation": 1.7902,
+            "azimuth": 296.7244,
+            "sun_vector_enu": [
+              -0.892744,
+              0.449479,
+              0.031239
+            ],
+            "facade_faces_sun": true,
+            "occluded": false,
+            "nearest": null
+          }
+        ]
+      },
+      "continuous": {
+        "sampling": "fine_grid_run_length",
+        "sunlit_duration_min": 480.0,
+        "sunlit_duration_h": 8.0,
+        "occluded_segments": [
+          {
+            "start": "2025-06-21T05:05+08:00",
+            "end": "2025-06-21T11:10+08:00",
+            "duration_min": 365.0,
+            "occluder_ids": [
+              "FACADE_AWAY"
+            ]
+          }
+        ],
+        "sunlit_segments": [
+          {
+            "start": "2025-06-21T11:10+08:00",
+            "end": "2025-06-21T19:10+08:00",
+            "duration_min": 480.0
+          }
+        ]
+      },
+      "unmodeled_occluders": [
+        "树木与绿化（教学场景刻意不建模，实地可能造成显著遮挡）",
+        "地形高差与场地以外的远处建筑",
+        "阳台、挑檐、窗洞侧壁凹进等建筑细部",
+        "遮阳板、百叶、临时构筑物",
+        "窗玻璃反射、污渍与室内遮挡"
+      ]
+    }
+  ]
+}
